@@ -1,0 +1,8 @@
+[default]
+secret_key = "itlYmFR2vYKrOmFhupMIn/hyB6lYCCTXz4yaQX89XVg="
+template_dir = "static"
+limits.file = "15 MiB"
+limits.data-form = "15 MiB"
+
+[global.databases.photon]
+url = "mysql://dbuser:abcd1234@localhost:3306/photon"

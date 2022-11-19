@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Photon - 익명 이미지 업로드</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&amp;display=swap">
+  <link rel="stylesheet" href="../css/tailwind/tailwind.min.css">
+  <script src="../js/main.js"></script>
+  <link rel="icon" href="../favicon.svg">
+</head>
+
+<body class="antialiased bg-body text-body font-body">
+  <div class="">
+
+    <section class="relative py-20 2xl:py-40 overflow-hidden">
+      <img class="hidden md:block absolute top-0 right-0 -mr-96 -mt-112" src="../zospace-assets/lines/circle.svg"
+        alt="">
+      <img class="absolute top-0 right-0 h-40 lg:h-80 lg:mr-64 lg:mt-24" src="../zospace-assets/images/stars-dark.svg"
+        alt="">
+      <img class="hidden lg:block absolute top-0 left-0 h-64 -ml-10"
+        src="../zospace-assets/images/blue-double-circle.svg" alt="">
+      <img class="absolute bottom-0 left-0 h-80" src="../zospace-assets/lines/light-double-circle.svg" alt="">
+      <div class="relative container px-4 mx-auto">
+        <div class="max-w-3xl mx-auto">
+          <div class="max-w-xl">
+            <a class="inline-block text-gray-900 text-xl font-bold" href="#">
+
+            </a>
+            <h2 class="mt-12 mb-14 text-5xl font-bold font-heading">이미지가 삭제되었거나 존재 하지 않는 이미지입니다.</h2>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 2xl:py-40 overflow-hidden">
+      <div class="container px-4 mx-auto">
+        <div class="max-w-3xl mx-auto text-center">
+          <a class="inline-block mx-auto text-gray-900 text-xl font-bold" href="/">
+            <h1>Photon</h1>
+          </a>
+          <h2 class="my-8 text-6xl lg:text-7xl font-bold font-heading" contenteditable="false">메인화면으로 돌아가기<br></h2>
+          <p class="mb-14 text-lg text-gray-500" contenteditable="false">아래 버튼을 클릭하여 메인화면으로 돌아갈 수 있습니다.<br></p>
+          <a class="inline-block py-4 px-12 text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200"
+            href="/" contenteditable="false">메인화면</a>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>

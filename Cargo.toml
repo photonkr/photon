@@ -1,0 +1,19 @@
+[package]
+name = "photon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.0-rc.2", features = ["secrets"] }
+rand = "0.8.5"
+rexiv2 = "0.9.1"
+chrono = "0.4.23"
+structopt = "0.3.26"
+
+[dependencies.rocket_dyn_templates]
+version = "0.1.0-rc.2"
+features = ["tera"]
+
+[dependencies.rocket_db_pools]
+version = "0.1.0-rc.2"
+features = ["sqlx_mysql"]
